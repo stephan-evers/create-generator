@@ -1,3 +1,7 @@
 #!/usr/bin/env node
 
-console.log('generator goes gchchchchchchchchhch')
+import yargs from 'yargs'
+
+const args = yargs.argv
+
+console.log('generator goes gchchchchchchchchhch', args)

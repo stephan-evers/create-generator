@@ -1,8 +1,9 @@
 {
-  "name": "create-generator",
+  "name": "@stephan-evers/create-generator",
   "version": "1.0.0",
   "license": "UNLICENSED",
-  "description": "Tool to generate opinionated types of Svelte components from the terminal.",
+  "description": "Tool to generate opinionated types of components from the terminal.",
+  "repository": "https://github.com/stephan-evers/create-generator.git",
   "bin": {
     "create-generator": "./dist/index.js"
   },
@@ -14,5 +15,8 @@
     "@babel/cli": "^7.12.8",
     "@babel/core": "^7.12.9",
     "@babel/preset-env": "^7.12.7"
+  },
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/@stephan-evers"
   }
 }
