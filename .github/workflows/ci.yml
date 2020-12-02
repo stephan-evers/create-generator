@@ -1,8 +1,5 @@
 name: Publish to GitHub Package Registry
-on:
-  pull_request:
-    branches:
-      - master
+on: [push]
 jobs:
   build:
     runs-on: ubuntu-latest
