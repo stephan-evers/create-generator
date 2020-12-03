@@ -1,6 +1,6 @@
 {
   "name": "@stephan-evers/create-generator",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "license": "UNLICENSED",
   "description": "Tool to generate opinionated types of components from the terminal.",
   "repository": "https://github.com/stephan-evers/create-generator.git",
