@@ -5,7 +5,7 @@
   "description": "Tool to generate opinionated types of components from the terminal.",
   "repository": "https://github.com/stephan-evers/create-generator.git",
   "bin": {
-    "create-generator": "./dist/index.js"
+    "generate": "./dist/index.js"
   },
   "author": "Stephan Evers <jimno345@gmail.com>",
   "scripts": {
@@ -18,5 +18,8 @@
   },
   "publishConfig": {
     "registry": "https://npm.pkg.github.com/@stephan-evers"
+  },
+  "dependencies": {
+    "yargs": "^16.1.1"
   }
 }
