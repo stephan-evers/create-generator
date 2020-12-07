@@ -9,17 +9,20 @@
   },
   "author": "Stephan Evers <jimno345@gmail.com>",
   "scripts": {
-    "build": "./build.sh"
+    "build": "rm -rf dist && babel src -d dist --copy-files",
+    "generate": "node dist"
   },
   "devDependencies": {
     "@babel/cli": "^7.12.8",
     "@babel/core": "^7.12.9",
+    "@babel/node": "^7.12.6",
     "@babel/preset-env": "^7.12.7"
   },
   "publishConfig": {
     "registry": "https://npm.pkg.github.com/@stephan-evers"
   },
   "dependencies": {
+    "chalk": "^4.1.0",
     "yargs": "^16.1.1"
   }
 }
